@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(50, 49, 65);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#secondary-title {
+  color: rgb(20, 166, 20);
+}
+
+#password-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.password-box {
+  width: 45%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(3, 9, 38);
+}

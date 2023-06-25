@@ -10,6 +10,7 @@ let messageEl = document.getElementById('message-el');
 let sumEl = document.getElementById('sum-el');
 let cardsEl = document.getElementById('cards-el');
 
+// ES5 syntax used to hoist function
 function getRandomCard() {
   let randomCard = Math.floor(Math.random() * 13) + 1;
 
