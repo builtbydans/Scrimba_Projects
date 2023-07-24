@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, 'sans-serif';
+}
+
+/* Navbar */
+
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+ul {
+  margin: 0;
+  display: flex;
+  padding: 25px;
+  list-style-type: none;
+  gap: 10px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon {
+  width: 25px;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+/* Main Section */
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+/* Captions */
+
+.caption {
+  margin: 0px 25px;
+}
+
+/* Images */
+
+.item-img {
+  width: 100%;
+}
